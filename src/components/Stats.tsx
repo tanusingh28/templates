@@ -2,7 +2,7 @@ export default function Stats(){
     return(
         <div>
             <div className="grid grid-cols-3 p-7">
-            <div className="border border-neutral-300 p-7 ">
+            <div className=" border border-neutral-300 p-7 ">
                 <h1 className="font-heading text-5xl text-neutral-600 ">$2.4B</h1>
                 <p className="font-heading text-neutral-500 tracking-wider">Assests under advisory</p>
             </div>
@@ -23,7 +23,7 @@ export default function Stats(){
                     <p className="font-heading text-xl text-neutral-700 tracking-wider ">Since 2014, we've worked with the founders and executives who want <br></br> their wealth managed with the same precision they ran their <br></br>companies.</p>
                 </div>
         </div>
-        <div className="border border-neutral-300 mb-10"></div>
+        <hr className="border-0 border-t border-neutral-300 mb-10" />
         </div>
     );
 }
