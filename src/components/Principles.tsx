@@ -1,6 +1,7 @@
 
 export default function Principles(){
     return(
+        <section id="Solutions">
         <div>
         <div className="p-16">
             <p className=" font-heading text-neutral-600 text-[15px] ">Our Principles</p>
@@ -35,6 +36,7 @@ export default function Principles(){
         <hr className="border-0 border-t border-neutral-300 mb-20" />
 
  </div>
+ </section>
     );
 }
 

@@ -1,5 +1,6 @@
 export default function Stats(){
     return(
+        <section id="Insights">
         <div>
             <div className="grid grid-cols-3 p-7">
             <div className=" border border-neutral-300 p-7 ">
@@ -25,5 +26,6 @@ export default function Stats(){
         </div>
         <hr className="border-0 border-t border-neutral-300 mb-10" />
         </div>
+        </section>
     );
 }

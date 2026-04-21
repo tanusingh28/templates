@@ -1,5 +1,6 @@
 export default function HowWeInvest(){
     return(
+        <section id="Company">
         <div className=" ">
             {/* parent div */}
             <div className="flex p-7">
@@ -24,6 +25,6 @@ export default function HowWeInvest(){
             </div>
             <hr className="border-0 border-t border-neutral-300 mt-24 mb-12" />
         </div>
-
+        </section>
     );
 }

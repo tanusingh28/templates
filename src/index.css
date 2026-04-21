@@ -5,3 +5,6 @@
     --font-heading : "Inter", sans-serif;
     --font-logo : "Cinzel", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}

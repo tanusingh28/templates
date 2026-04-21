@@ -7,7 +7,7 @@ export default function Footer(){
                 <div className="flex flex-col gap-24 items-start ml-12"> 
                     {/*  A button by default has display: inline-block — meaning it should NOT take full width naturally. BUT when you put it inside a flex container (which you have — flex flex-col), the child items stretch to fill the cross axis by default because of align-items: stretch.So it's not the div causing it — it's flex-col that's stretching the button to full width!*/}
                     {/* default items-strech was causing the button to take the full width*/}
-                    <button className="border border-neutral-300 p-1.5 pl-4 pr-4">ARCUS</button>
+                    <button className="font-logo border border-neutral-300 p-1.5 pl-4 pr-4 tracking-wider">ARCUS</button>
                     {/* grow-0 will stop the button from growing vertically because flex direction is col hence vertical axis is the main axis.  */}
                     <p className="text-[14px] text-neutral-500">2026 Arcus Private Wealth. <br></br> All rights reserved.</p>
 

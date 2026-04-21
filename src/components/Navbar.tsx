@@ -10,9 +10,9 @@ export default function Navbar(){
                 {/* child 2 */}
                 <div className="flex gap-7 items-center">
                     {/* adding items-center here really changed the game! the button and nav links are now in same line which were not when i tried to give items-center to the main div */}
-                    <a href="#" className="text-[17px]">Solutions</a>
-                    <a href="#" className="text-[17px]">Insights</a>
-                    <a href="#" className="text-[17px]">Company</a>
+                    <a href="#Solutions" className="text-[17px]">Solutions</a>
+                    <a href="#Insights" className="text-[17px]">Insights</a>
+                    <a href="#Company" className="text-[17px]">Company</a>
                     <button className="border border-black text-white bg-black p-2 pr-[20px] pl-[20px] shadow-lg cursor-pointer">Get Started</button>
                 </div>
 
